@@ -17,7 +17,7 @@ nodejs---
     addr.sin_family = AF_INET;
     addr.sin_addr.s_addr = htonl(INADDR_LOOPBACK
   ); --> INADDR_ANY
-
+    
   addr.sin_port = htons(port);
   然后重新编译Nodejs。
   提示：
